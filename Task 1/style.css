@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+.row{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+   
+}
+
+.coloum1 , .coloum2{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    overflow: hidden;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.product{
+    float: left;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  
+}
+.prod:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.product:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.coloum2:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+
+
+
+
+
